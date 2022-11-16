@@ -119,5 +119,7 @@ elif [ -f /data/adb/modules/glance_enhancer/system/product/priv-app/Velvet/Velve
     rm -rf $MODPATH/system/product/priv-app/Velvet/oat
 fi
 
+am force-stop com.google.android.googlequicksearchbox
+
 ui_print "- Installation Completed"
 ui_print "- Reboot to apply changes"
